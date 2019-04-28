@@ -1891,6 +1891,12 @@ pre .storage {
 	padding-top: 45px;
 }
 
+#disqus_thread {
+    padding: 0 30px;
+    max-width: 720px;
+    margin: 0 auto 60px;
+}
+
 /**
  * 6.3 Paging Navigation
  * ----------------------------------------------------------------------------
