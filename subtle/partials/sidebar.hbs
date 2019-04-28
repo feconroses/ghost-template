@@ -10,19 +10,37 @@
 				<section class="widget widget-about">
 					<h2 class="widget-title">About Me</h2>
 					<p><img src="{{asset "images/about.png"}}" alt="John Doe" class="about-photo" /></p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed lacus id tortor iaculis iaculis dignissim eget justo. Maecenas posuere eros nisl, ut pharetra turpis faucibus a. In imperdiet urna mattis lacus mollis, sit amet pulvinar purus vehicula.</p>
+					<p>A full stack marketer with experience in marketing (SEO, SEM, content marketing, etc), programming (python, SQL, HTML, CSS) and analytics (Mixpanel, Google Analytics, Mode Analytics).</p>
 				</section><!-- .widget -->
 
-				<section class="widget widget-tags">
+				<h2 class="widget-title">Get in touch!</h2>
+
+				<p></p>
+				<p></p>
+
+				<a href="https://growthandtraction.com/contact" class="circle"><i class="icon-envelope" aria-hidden="true"></i><span class="screen-reader-text">Email</span></a>
+
+				<a href="{{twitter_url}}" class="circle" target="_blank"><i class="icon-twitter" aria-hidden="true"></i><span class="screen-reader-text">Twitter</span></a>
+				
+				<a href="https://www.linkedin.com/in/federico-pascual" class="circle" target="_blank"><i class="icon-linkedin" aria-hidden="true"></i><span class="screen-reader-text">Linkedin</span></a>
+				
+				<a href="https://github.com/feconroses/" class="circle" target="_blank"><i class="icon-github" aria-hidden="true"></i><span class="screen-reader-text">GitHub</span></a>
+				
+				<a href="{{@blog.url}}/rss/" class="circle" target="_blank"><i class="icon-feed" aria-hidden="true"></i><span class="screen-reader-text">RSS</span></a>
+
+				<p></p>
+				<p></p>
+
+				{{!-- <section class="widget widget-tags">
 					<h2 class="widget-title">Tags</h2>
 					<div class="tagcloud">
 						{{#get "tags" limit="all" order="name asc"}}
 							{{#foreach tags}}
-								<a href="/tag/{{slug}}" class="button">{{name}}<span aria-hidden="true"><span class="line left"></span><span class="line top"></span><span class="line right"></span><span class="line bottom"></span></span></a>
+								<a href="/contact" class="button">Reach out<span aria-hidden="true"><span class="line left"></span><span class="line top"></span><span class="line right"></span><span class="line bottom"></span></span></a>
 							{{/foreach}}
 						{{/get}}
 					</div>
-				</section><!-- .widget -->
+				</section><!-- .widget --> --}}
 
 			</div><!-- .widget-area -->
 			<a class="sidebar-toggle"><span class="screen-reader-text">Close</span><span class="icon" aria-hidden="true"></span></a>
