@@ -1,0 +1,17 @@
+<header class="site-header">
+	{{#if @blog.logo}}
+		<p class="site-logo"><a href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a></p>
+		{{#is "index"}}
+			<h1 class="site-title screen-reader-text"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+		{{else}}
+			<p class="site-title screen-reader-text"><a href="{{@blog.url}}">{{@blog.title}}</a></p>
+		{{/is}}
+	{{else}}
+		{{#is "index"}}
+			<h1 class="site-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+		{{else}}
+			<p class="site-title"><a href="{{@blog.url}}">{{@blog.title}}</a></p>
+		{{/is}}
+	{{/if}}
+	<a class="sidebar-toggle"><span class="screen-reader-text">Menu and Widgets</span><span class="icon" aria-hidden="true"></span></a>
+</header><!-- .site-header -->
